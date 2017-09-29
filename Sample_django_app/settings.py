@@ -25,11 +25,11 @@ SECRET_KEY = '9sc!brhz%^j2rmawkk(*af(^4en6edrk^u3!^=4u(&j()i+_)g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.2.66','localhost' ]
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'shankrekha@gmail.com'
-EMAIL_HOST_PASSWORD = 'ghadlatte'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
